@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Red Sky's Affordable and professional web design for the μChip Clan">
+  <meta name="keywords" content="Red Sky's web design, affordable web design, professional web design, μChip Clan">
+  <meta name="author" content="Red Sky">
+  <title>Gaming 4 Life</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+</head>
+
+<body>
+  <header>
+    <div align="center" class="ctn">
+      <nav>
+        <form>
+          <button formaction="/">Home</button>
+          <select name="Lang-3" onchange="javascript:handleSelect(this)">
+            <option value="#">Follow us on: </option>
+            <option value="https://www.twitch.tv/pirateradioshow98">☠| Twitch |☠</option>
+            <option value="https://www.youtube.com/channel/UCmd2roksoxIvMrE8R8p6u3g">☠| Youtube |☠</option>
+            <option value="https://www.facebook.com/Pirate-Radio-Show-103686634953174">☠| Facebook |☠</option>
+            <option value="https://twitter.com/show_pirate">☠| Twitter |☠</option>
+            <option value="https://www.instagram.com/pirateradioshow98/">☠| Instagram |☠</option>
+          </select>
+          <button formaction="/Community_ENG">☠| Community |☠</button>
+          <button formaction="/Learn_ENG">☠| Let's Learn 2 Code |☠</button>
+          <button formaction="https://www.mixcloud.com/redsky98/" method="post" formtarget="_blank">☠| Pirate Radio |☠</button>
+          <button formaction="/Donations_ENG">☠| Donations |☠</button>
+          <button formaction="/Downloads_ENG">☠| Downloads |☠</button>
+          <select name="Lang-3" onchange="javascript:handleSelect(this)">
+            <option value="#">Languages</option>
+            <option value="/inicio">Español</option>
+            <option value="/index">Magyar</option>
+          </select>
+        </form>
+      </nav>
+    </div>
+  </header>
+
+
+  <section id="sub">
+    <div align="center" class="ctn">
+      <form>
+          <button formaction="https://s.team/chat/FVI1GpWg" formtarget="_blank">Steam</button>
+		  <button formaction="https://discord.gg/3t82PbymUc" formtarget="_blank">Discord</button>
+        <select id="Lang-3" name="Lang-3" class="drop_down" onchange="javascript:handleSelect(this)">
+          <option value="#">☠| Films/Series/Manga & Anime |☠</option>
+          <option value="/Main_PC_ENG">Films</option>
+          <option value="/PS4_ENG">Series</option>
+          <option value="/PS5_ENG">Manga & Anime</option>
+        </select>
+        <button formaction="/Gameplays_ENG">Gameplays</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="main">
+    <div class="ctn">
+      <article id="main-col">
+        <h1 class="page-title">Everything we play:</h1>
+        <ul id="services">
+          <li>
+            <h3>My favorite games:</h3>
+            <p>The Battle For Middle Earth 1-2 and The Rise Of The Witchking, Sins Of A Solar Empire Rebellion, Smite,
+			LOL, CS:GO, Assassin's Creed series (Haven't played all..), Warthunder, Diablo 3, Tourchlight 1-2-3, World Of Tanks, World Of Warships, Shaiya (I will try to make it possible to have my own server a day.) , Blacklight Retribution... (I were beta tester long time ago... Now I play sometimes on PS4), ON XBOX360: SKATE3 and AVATAR made by the film of James Cameron... , Perfect Dark Zero..</p>
+          </li>
+          <li>
+            <h3>μChip Gaming</h3>
+            <p>Well we play almos everything... I will try to get a list of all those games we play along.. However I have a few friends from Spain Playing World Of Tanks.</p>
+          </li>
+          <li>
+            <h3>The games I'd like to try:</h3>
+            <p>Witcher3, ARMA3, PUBG (Eventhough I didn't liked the mobile version.), ElderScrools Online, Starcraft series, Subnautica, Naruto games on PS4... , Watchdogs 1-2 in any kind of platform... And almost all the games on my Steam wishlist... <font color="blue">:P <font></p>
+          </li>
+        </ul>
+      </article>
+
+      <aside id="sidebar">
+        <div id="stage" style="width: 120px; height: 120px;">
+          <div class="spinner">
+            <a href="https://panel.marketagent.com/Register/Account/NewRegistration/en-US?RefUID=1602726">
+              <h3>
+                <center>Earn some money hiere</center>
+              </h3>
+            </a>
+            <center>
+              <form class="money">
+                <center><a href="https://panel.marketagent.com/Register/Account/NewRegistration/en-US?RefUID=1602726"
+                    target="_new"><img style="border-style: none; width: 120px; height: 60px"
+                      src="http://www.marketagent.com/MA_WebResources/pic/banner/120x60_Marketagent_weiss_US.gif"></a>
+                </center>
+              </form>
+            </center>
+          </div>
+        </div>
+    </div>
+    </div>
+    </aside>
+
+
+
+
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      <font color="red">Red</font>
+      <font color="littleblue">Sky</font>'s Web Deisgn made for the <font color=" littleblue"> μChip Community</font>
+      Copyright &copy; 2021
+    </p>
+  </footer>
+
+  <script src="{{ url_for('static', filename='scripts/main.js')}}"></script>
+
+</body>
+
+</html>
